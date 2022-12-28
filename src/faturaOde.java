@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class faturaOde extends userInfo {
     public  static void faturaOde()  {
         int elektrik=42, su=35, dogalgaz=13, internet=60;
+        System.out.println(System.lineSeparator().repeat(50));
         System.out.println("\t\t - LUTFEN ISLEM SECINIZ -");
         System.out.println("**********************************************************");
         System.out.println();

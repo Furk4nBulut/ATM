@@ -3,19 +3,21 @@ import java.util.Scanner;
 public class paraCek extends userInfo{
     public static void paraCek() {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println(System.lineSeparator().repeat(50));
         System.out.println("\tBakiyeniz : " + bakiye + "$");
         System.out.print("\n\n\n\tCEKMEK ISTEDIGINIZ TUTARI GIRIN : ");
         int tutar1 = scanner.nextInt();
 
         if (tutar1 > 0 && tutar1 <= bakiye) {
             bakiye -= tutar1;
+            System.out.println(System.lineSeparator().repeat(50));
             System.out.println("\n\tISLEMINIZ GERCEKLESTIRILIYOR...");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            System.out.println(System.lineSeparator().repeat(50));
             System.out.println("\n\n\t- ISLEM BASARILI -\n\n");
             System.out.println("****************************************\n\n");
             System.out.println("\tCEKILEN TUTAR : " + tutar1 + " $");

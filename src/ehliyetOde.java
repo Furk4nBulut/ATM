@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ehliyetOde extends userInfo {
     public static  void ehliyetOde( ) {
+
         Scanner input = new Scanner(System.in);
-        menuGetir.menuGetir ();
+
         int ehliyet = 1200;
         int ehliyetToMenu, secim7;
-        System.out.println("\033[H\033[2J"); // Clear the console
         int secimEhliyet;
         System.out.println("**********************************************************");
         System.out.println("\n\n\tADINIZA KAYITLI EHLIYET HARC TUTARI : " + ehliyet + " $\n\n");

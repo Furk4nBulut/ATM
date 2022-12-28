@@ -4,10 +4,10 @@ public class menuGetir extends userInfo {
     public static void menuGetir()  {
         Scanner sc = new Scanner(System.in);
         System.out.println("----------------------------------------------------------\n\t");
-        System.out.println("\t* ZAMAR BANK'A HOSGELDINIZ *\t\n");
-        System.out.println("----------------------------------------------------------\n\n");
+        System.out.println("\t   * ZAMAR BANK'A HOSGELDINIZ *\t\n");
+        System.out.println("----------------------------------------------------------\n");
         System.out.println("\t\t - LUTFEN ISLEM SECINIZ -\n");
-        System.out.println("**********************************************************\n\n");
+        System.out.println("**********************************************************\n");
         System.out.println("   1 ) Bakiye Goruntule\t\t\tFatura Ode ( 6\n");
         System.out.println("   2 ) Para Cek\t\t\t Ehliyet Harci Ode ( 7\n");
         System.out.println("   3 ) Para Yatir\t\t    OSYM Odemeleri ( 8\n");
@@ -15,8 +15,7 @@ public class menuGetir extends userInfo {
         System.out.println("   5 ) IBAN Sorgula\t\t   Vergi Odemeleri ( 10\n\n");
         System.out.println("\t\t    11 ) Sifre Degistir\n\n");
         System.out.println("\t\t    12 ) Cikis Yap\n\n");
-        System.out.println("**********************************************************\n\n Seciminiz -> ");
-        int secim = sc.nextInt();
+        System.out.println("**********************************************************\n Seciminiz -> "); int secim = sc.nextInt();
         switch (secim) {
             case 1:
                 System.out.println("\n\n\tBAKIYE : " + bakiye + "$");

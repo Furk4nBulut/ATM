@@ -1,6 +1,7 @@
 public class cikis {
 
         public static void cikis() {
+            System.out.println(System.lineSeparator().repeat(50));
             System.out.println("\n\t\t- Cikis yapiliyor... -");
             try {
                 Thread.sleep(2000);
