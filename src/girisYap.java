@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class girisYap  extends userInfo{
 //for debug
+
     public static void girisYap() {
         int girilenNo;
         int girilenSifre;
