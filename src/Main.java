@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
-        menu menu =new menu();
+        //Test için müşteri numarası ve şifre 0
         menu.menu();
-
     }
 }
