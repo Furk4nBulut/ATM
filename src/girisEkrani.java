@@ -15,7 +15,7 @@ public class girisEkrani
         System.out.println("\t\t   1 ) Giris Yap");
         System.out.println("\t\t   2 ) Hesap Olustur");
         System.out.println("\t\t   3 ) Cikis");
-        System.out.println("\n\n\n\t\t\t\tDeveloped by. Furkan Cevik");
+        System.out.println("\n\n\n\t\t\t\tDeveloped by. Furkan");
         System.out.print("Seciminiz -> ");
 
     }
