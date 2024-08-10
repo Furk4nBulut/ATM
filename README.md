@@ -1,7 +1,9 @@
 # Simple ATM Application
 
 **Simple ATM Application** is a console-based Java application that simulates basic ATM functionalities. This project, converted from a C codebase to Java, is designed to handle operations such as depositing and withdrawing money, as well as other banking tasks. It is important to note that this application operates solely in a console environment and does not include any graphical user interface (GUI).
+## Note
 
+This project was developed as part of a university assignment for the Computer Engineering program at [Amasya University]. The application is console-based and does not feature a graphical user interface (GUI). This repository, [PROGLAMLAMA2-ATModev](https://github.com/furkncvk/PROGLAMLAMA2-ATModev), is the primary and official source for the project.
 ## Features
 
 - **Deposit Money**: Users can deposit funds into their account.
@@ -25,13 +27,13 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/simple-atm-java.git
+    git clone https://github.com/furkncvk/PROGLAMLAMA2-ATModev.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd simple-atm-java
+    cd PROGLAMLAMA2-ATModev
     ```
 
 3. Compile the project:
@@ -63,6 +65,3 @@
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Note
-
-This project was developed as part of a university assignment for the Computer Engineering program at [University Name]. The application is console-based and does not feature a graphical user interface (GUI).
