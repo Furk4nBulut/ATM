@@ -1,10 +1,7 @@
 # Simple ATM Application
 
-**Simple ATM Application** is a console-based Java application that simulates basic ATM functionalities. This project, which is a conversion from a C codebase to Java, is designed to handle operations such as depositing and withdrawing money, as well as other banking tasks. It was developed as part of a university assignment for the Computer Engineering program.
+**Simple ATM Application** is a console-based Java application that simulates basic ATM functionalities. This project, converted from a C codebase to Java, is designed to handle operations such as depositing and withdrawing money, as well as other banking tasks. It is important to note that this application operates solely in a console environment and does not include any graphical user interface (GUI).
 
-## Note
-
-This project was developed as part of a university assignment for the Computer Engineering program at [Amasya University].
 ## Features
 
 - **Deposit Money**: Users can deposit funds into their account.
@@ -66,3 +63,6 @@ This project was developed as part of a university assignment for the Computer E
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Note
+
+This project was developed as part of a university assignment for the Computer Engineering program at [University Name]. The application is console-based and does not feature a graphical user interface (GUI).
